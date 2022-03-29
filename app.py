@@ -70,7 +70,7 @@ EmpEnvironmentSatisfaction = st.slider("Environment Satisfaction", min_value=1, 
 
 EmpLastSalaryHikePercent = st.slider("Employee Salary Increment", min_value=0, max_value=5, value=1, step=1, format='%f')#st.text_input("Sepal Length", "Type Here")
 
-st.markdown("#### EmpWorkLifeBalance: 1 - Bad, 2 - Good, 3 - Better, 4 - Best")
+#st.markdown("#### EmpWorkLifeBalance: 1 - Bad, 2 - Good, 3 - Better, 4 - Best")
 
 EmpWorkLifeBalance = st.slider("Employee Work Life Balance", min_value=0, max_value=4, value=1, step=1, format='%f')#st.text_input("Sepal Length", "Type Here")
 
